@@ -8,7 +8,7 @@ LEFT JOIN salaries AS sal ON emp.emp_no = sal.emp_no; --Include employees withou
 
 SELECT first_name, last_name, hire_date
 FROM employees AS emp
-WHERE EXTRACT (YEAR from hire_date) = 1986
+WHERE EXTRACT (YEAR from hire_date) = 1986;
 
 --List the manager of each department along with their department number, department name, employee number, last name, and first name.
 
